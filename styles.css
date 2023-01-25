@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,700;0,900;1,100;1,200;1,300;1,700&display=swap');
+       
+body {
+    background-color: #eee;
+}
+
+h1 {
+    font-family: Raleway;
+    font-size: 54px;
+    font-weight: 800;
+    color: #9d2235;
+}
+
+h2 {
+    font-family: Raleway;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: Raleway;
+    font-size: 28px;
+    color: #444;
+}
+
+p {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 25px;
+}
+
+.grid-container {
+    display: grid;
+    max-width: 900px;
+    margin: 40px auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+header {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    display: inline-flex;
+}
+
+footer {
+   display: grid;
+   justify-content: center;
+   max-height: 50px;
+   grid-column: span 3;
+    background-color: black;
+    color: #fff;
+}
+
+btn {
+    background-color: #9d2235;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Raleway;
+}
+.navbtn {
+    display: inline;
+    margin: 10px;
+
+}
+
+#featuredstory {
+    display: grid;
+    grid-column: span 3;
+    border: solid 5px #444;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/minneapolis-home.jpg')
+}
+#featuredstory h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+#featuredstory p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+}
+
+#featuredstory btn {
+    display: flex;
+    width: 100px;
+    padding: 20px;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+
+}
